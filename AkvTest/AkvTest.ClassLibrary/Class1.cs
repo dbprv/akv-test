@@ -8,7 +8,7 @@ namespace AkvTest.ClassLibrary
 
         public Class1()
         {
-            Property1 = "ABC 123";
+            Property1 = "Class 1 Property1 value ABC 123";
         }
     }
 }

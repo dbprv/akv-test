@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkvTest.ConsoleApp", "AkvTest.ConsoleApp\AkvTest.ConsoleApp.csproj", "{DC99E07A-285F-4BE0-AFFA-7131F71F124F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkvTest.ConsoleApp", "AkvTest.ConsoleApp\AkvTest.ConsoleApp.csproj", "{DC99E07A-285F-4BE0-AFFA-7131F71F124F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkvTest.ClassLibrary", "AkvTest.ClassLibrary\AkvTest.ClassLibrary.csproj", "{58A47860-26B9-4F9C-928F-6CB14A92402A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkvTest.ClassLibrary", "AkvTest.ClassLibrary\AkvTest.ClassLibrary.csproj", "{58A47860-26B9-4F9C-928F-6CB14A92402A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AkvTest.CPlusPlusDLL", "AkvTest.CPlusPlusDLL\AkvTest.CPlusPlusDLL.vcxproj", "{580506FE-344A-4D78-842C-D1B657D07E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkvTest.ClassLibrary.NF", "AkvTest.ClassLibrary.NF\AkvTest.ClassLibrary.NF.csproj", "{D053DB92-3798-4EE3-85FF-B56664216259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkvTest.ConsoleApp.NF", "AkvTest.ConsoleApp.NF\AkvTest.ConsoleApp.NF.csproj", "{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,30 @@ Global
 		{580506FE-344A-4D78-842C-D1B657D07E6A}.Release|x64.Build.0 = Release|x64
 		{580506FE-344A-4D78-842C-D1B657D07E6A}.Release|x86.ActiveCfg = Release|Win32
 		{580506FE-344A-4D78-842C-D1B657D07E6A}.Release|x86.Build.0 = Release|Win32
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Debug|x64.Build.0 = Debug|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Debug|x86.Build.0 = Debug|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Release|x64.ActiveCfg = Release|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Release|x64.Build.0 = Release|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Release|x86.ActiveCfg = Release|Any CPU
+		{D053DB92-3798-4EE3-85FF-B56664216259}.Release|x86.Build.0 = Release|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Debug|x64.Build.0 = Debug|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Debug|x86.Build.0 = Debug|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Release|x64.ActiveCfg = Release|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Release|x64.Build.0 = Release|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Release|x86.ActiveCfg = Release|Any CPU
+		{A78F0C0E-5BCC-44EB-B944-E5E88DDC6582}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
