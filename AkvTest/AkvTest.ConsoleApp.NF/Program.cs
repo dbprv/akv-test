@@ -14,6 +14,7 @@ namespace AkvTest.ConsoleApp.NF
             Console.WriteLine("Hello World!");
             var obj = new Class2();
             Console.WriteLine($"{nameof(obj)}.{nameof(obj.Property1)} = '{obj.Property1}'");
+            Console.WriteLine("Press any key...");
             Console.ReadKey(true);
         }
     }
