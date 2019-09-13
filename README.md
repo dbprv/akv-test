@@ -3,13 +3,13 @@ Author: Bakanov D.A., bakanovda@mail.ru, 2019-09-11
 
 ## Task ##
 
-Manual:
+### Manual ###
 
 Create a Git repo locally or any remote one (github for example)
 
 Add there 1 C++ and 2 C# projects where one of C# projects references another one
 
-Automation:
+### Automation ###
 
 Get code from Git repo to a local folder
 
