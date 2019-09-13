@@ -25,7 +25,7 @@ Script created and tested on the following environment:
 
 ## Usage ##
 Run in CMD:
-akv-test.cmd
+`akv-test.cmd`
 
 Or in PowerShell:
-.\akv-test.ps1 -GitUrl "https://github.com/dbprv/akv-test.git"
+`.\akv-test.ps1 -GitUrl "https://github.com/dbprv/akv-test.git"`
