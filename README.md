@@ -1,6 +1,5 @@
 # Test task from Akvelon #
-Author: Bakanov D.A., bakanovda@mail.ru
-2019-09-11
+Author: Bakanov D.A., bakanovda@mail.ru, 2019-09-11
 
 ## Task ##
 
