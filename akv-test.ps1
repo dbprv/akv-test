@@ -689,6 +689,7 @@ try {
   Write-Host "Manifest saved to '$manifest_path'" -ForegroundColor 'Green'
   
   ### Make a zip archive including all binaries/assemblies and generated manifest (use 7zip, Windows built in or any other)
+  ### Copy resulted zip to any release location  
   # ??? Not specified in task - save original folder hierarchy or not. So implement both cases
   
   $archive_path = Join-Path $ReleaseLocation "Release.zip"
@@ -707,19 +708,11 @@ try {
   # Do not save original folder hierarchy
   #  $files, $manifest_path | Compress-Archive -DestinationPath $archive_path -Force
   
-  ### Copy resulted zip to any release location
-  # ??? Is it required? Archive already directly created in release folder in previous step
-  $another_release_location = Join-Path $ReleaseLocation ".." "AnotherReleaseLocation"
-  Test-Folder $another_release_location -Create -ErrorAction 'Stop' >$null
-  $another_destination = Join-Path $another_release_location ([System.IO.Path]::GetFileName($archive_path))
-  Copy-Item $archive_path -Destination $another_destination -Force
-  
   ### Copy resulted pdbs into a separate folder called Symbols in the same release location, saving original folder hierarchy
   & robocopy.exe @($LocalFolder, (Join-Path $ReleaseLocation "Symbols"), "*.pdb", "/s", "/purge", "/xd", "obj")
   
   # Delete temp folder if required
   #try { Remove-Item -Path $temp_folder -Recurse -Force -Confirm:$false -ErrorAction 'SilentlyContinue' >$null } catch { }
-  
   
 } catch {
   Write-Host ($global:Error[0] | Out-String).Trim() -ForegroundColor 'Red'
